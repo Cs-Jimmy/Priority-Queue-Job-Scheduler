@@ -1,12 +1,12 @@
-# 🖨️ Printer Job Scheduler
+#  Printer Job Scheduler
 
-## 📋 Overview
+##  Overview
 
 This program simulates a printer job scheduling system. It reads print jobs from a file, organizes them in a priority queue based on arrival time and job duration, then processes each job in the correct order while calculating waiting times and execution metrics.
 
 The program manages multiple print jobs from different workstations (PCs) and determines the optimal execution order to process all jobs efficiently.
 
-## ⚡ Core Functionalities
+##  Core Functionalities
 
 ### Job Management
 - Reads print jobs from input file (`Printer.txt`)
@@ -31,7 +31,7 @@ The program manages multiple print jobs from different workstations (PCs) and de
 - Shows execution order and timing
 - Provides system performance metrics
 
-## 📁 Input Format
+##  Input Format
 
 The program expects a file named `Printer.txt` with the following structure:
 
@@ -69,7 +69,7 @@ The printer was occupied for 62 minutes
 Average waiting time for all jobs is 16.40 minutes
 ```
 
-## 🔄 Program Flow
+##  Program Flow
 
 1. **File Reading**: Program reads the number of jobs and job details from `Printer.txt`
 2. **Queue Building**: Each job is added to the priority queue in the correct position
@@ -80,7 +80,7 @@ Average waiting time for all jobs is 16.40 minutes
    - Updates current time by adding job duration
 5. **Results Display**: Shows execution details and calculates final statistics
 
-## 🧱 Key Classes
+##  Key Classes
 
 ### JobInfo
 - Stores individual job data (PC name, arrival time, duration)
